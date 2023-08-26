@@ -1,9 +1,59 @@
+h1, h2, h3, p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+ul  {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+ 
+img {
+    display: block;
+}
+.container {
+max-width: 1160px;
+padding-left: 16px;  
+padding-right: 16px;  
+margin-left: auto;
+margin-right: auto;
+}
+ 
+
+
 .link {
 text-decoration: none;
 }
 .list {
 list-style-type: none;
 }
+
+
+/*====================HEADER==================*/
+
+.page-header-container {
+    display: flex;
+    align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    justify-content: space-between;
+}
+.page-navigation {
+    display: flex;
+    column-gap: 80px;
+    
+}
+.menu {
+    display: flex;
+    column-gap: 40px;
+}
+
+.menu-address {
+    display: flex;
+    column-gap: 40px;
+}
+
 button {
 cursor: pointer;
 background: var(--iris, #4D5AE5);
@@ -61,6 +111,8 @@ letter-spacing: 0.02em;
  }
 .hero-page {
 background: var(--navyblue, #2E2F42);
+width: 1440;
+height: 600;
 }
 .hero-page-title {
 color: var(--white, #FFF);
@@ -83,6 +135,33 @@ letter-spacing: 0.04em;
 background: var(--ocean, #404BBF);
  }
 
+/*===============Principles of work Section=============*/
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.principles-page {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.principles-menu {
+    display: flex;
+    column-gap: 24px;
+}
+
+ /*=======================================================*/
+
+
 .section-title {
 color: var(--navyblue, #2E2F42);
 text-align: center;
@@ -98,6 +177,8 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
+margin-bottom: 8;
+
 }
 
 .menu-item-description {
@@ -106,12 +187,28 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
+
+/*======================Our team Section =================*/
+.team-menu {
+    display: flex;
+}
+
+
+/*======================Portfolio Section =================*/
+.portfolio-menu {
+    display: flex;
+}
+
+
+
+
 .team-page {
 background: var(--cloud, #F4F4FD);
 }
 
 .team-menu-item {
 background-color:#FFFFFF;  
+width: calc(100%-3*24)
 }
 .footer-page {
 background: var(--navyblue, #2E2F42);   
