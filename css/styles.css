@@ -14,8 +14,7 @@ img {
 }
 .container {
 max-width: 1158px;
-padding-left: 0 15px;  
-padding-right: 0 15px;  
+padding: 0 15px; 
 margin-left: auto;
 margin-right: auto;
 }
@@ -37,7 +36,6 @@ list-style-type: none;
 .page-header-container {
     display: flex;
     align-items: center;
-    padding: 0 16px;
     justify-content: space-between;
     
 }
