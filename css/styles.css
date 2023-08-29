@@ -181,11 +181,15 @@ background: var(--ocean, #404BBF);
   }
 
   .principles-menu-item {
-    width: 264px;
-    width: calc((100%-72px)/4);
+    width: calc((100% - 72px)  / 4);
   }
 
-
+  .menu-item-description {
+    color: var(--slate, #434455);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+       }
 
 
  /*=======================================================*/
@@ -198,7 +202,6 @@ font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-padding-top: 120px;
 margin-bottom: 72px;
 }
 
@@ -209,17 +212,9 @@ font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
 margin-bottom: 8px;
-margin-top: 32px;
 
 }
 
-.menu-item-description {
-color: var(--slate, #434455);
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-padding-bottom: 32px;
-}
 
 /*===================3===Our team Section =================*/
 .team-menu {
@@ -293,7 +288,7 @@ font-weight: 700;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-margin-right: 76px;
+
 }
 
 .footer-description {
