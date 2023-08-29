@@ -51,11 +51,10 @@ list-style-type: none;
     display: flex;
     gap: 40px;
 }
-
 .menu-item {
  padding: 24px 0;
 }
-.menu list {
+.menu-link {
     padding: 24px 0;
 }
 
@@ -162,21 +161,22 @@ background: var(--ocean, #404BBF);
  }
 
 /*============2==Principles of work Section=============*/
+
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-.principles-page {
-   padding-top: 120px;
-padding-bottom: 120px;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+ .principles-page {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .principles-menu {
@@ -268,7 +268,7 @@ border-radius: 0px 0px 4px 4px;
   }
 
    .portfolio-container {
-    padding: 32px 16px;
+    padding: 32px 15px;
     border: 1px solid #E7E9FC;
     border-top: none;
    }
